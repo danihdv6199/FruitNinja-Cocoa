@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14490.70"/>
+        <capability name="System colors introduced in macOS 10.14" minToolsVersion="10.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="NSApplication">
+            <connections>
+                <outlet property="delegate" destination="EiT-Mj-1SZ" id="Ku1-9p-vOz"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customObject id="Voe-Tx-rLC" customClass="AppDelegate">
+            <connections>
+                <outlet property="window" destination="QvC-M9-y7g" id="gIp-Ho-8D9"/>
+            </connections>
+        </customObject>
+        <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
+        <menu title="Main Menu" systemMenu="main" id="AYu-sK-qS6">
+            <items>
+                <menuItem title="JuegoDani" id="1Xt-HY-uBw">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <menu key="submenu" title="JuegoDani" systemMenu="apple" id="uQy-DD-JDr">
+                        <items>
+                            <menuItem title="About JuegoDani" id="5kV-Vb-QxS">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="orderFrontStandardAboutPanel:" target="-1" id="Exp-CZ-Vem"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem isSeparatorItem="YES" id="VOq-y0-SEH"/>
+                            <menuItem title="Menu Fruit Ninja" keyEquivalent="," id="BOF-NM-1cW">
+                                <connections>
+                                    <action selector="showPanel:" target="9ic-ny-uVa" id="kLl-rG-EFt"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem isSeparatorItem="YES" id="wFC-TO-SCJ"/>
+                            <menuItem title="Quit JuegoDani" keyEquivalent="q" id="4sb-4s-VLi">
+                                <connections>
+                                    <action selector="terminate:" target="-1" id="Te7-pn-YzF"/>
+                                </connections>
+                            </menuItem>
+                        </items>
+                    </menu>
+                </menuItem>
+            </items>
+            <point key="canvasLocation" x="15" y="172"/>
+        </menu>
+        <window title="JuegoDani" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" animationBehavior="default" id="QvC-M9-y7g">
+            <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES"/>
+            <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
+            <rect key="contentRect" x="335" y="390" width="1296" height="960"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1920" height="1057"/>
+            <view key="contentView" id="EiT-Mj-1SZ">
+                <rect key="frame" x="0.0" y="0.0" width="1296" height="960"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <customView identifier="vista" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Eka-Dy-gNw" userLabel="Vista" customClass="Pantalla">
+                        <rect key="frame" x="0.0" y="0.0" width="1296" height="960"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AgP-3a-HfJ">
+                                <rect key="frame" x="1115" y="914" width="163" height="26"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <textFieldCell key="cell" lineBreakMode="clipping" title="Tiempo: 0" id="0LT-eW-W31">
+                                    <font key="font" size="21" name="Phosphate-Inline"/>
+                                    <color key="textColor" name="systemRedColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZSn-co-6Gf">
+                                <rect key="frame" x="1115" y="873" width="177" height="26"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <textFieldCell key="cell" lineBreakMode="clipping" title="Puntuacion: 0" id="gi9-EE-G7N">
+                                    <font key="font" size="21" name="Phosphate-Solid"/>
+                                    <color key="textColor" name="systemRedColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <imageView hidden="YES" autoresizesSubviews="NO" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sI3-0A-BqT">
+                                <rect key="frame" x="235" y="244" width="827" height="472"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" image="GameOver" id="zTj-bn-24r"/>
+                            </imageView>
+                            <textField hidden="YES" horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gLG-wf-bah">
+                                <rect key="frame" x="222" y="461" width="853" height="38"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <textFieldCell key="cell" lineBreakMode="clipping" title="BIEN JUGADO TU PUNTUACION HA SIDO: " id="R3k-Y1-DwU">
+                                    <font key="font" size="31" name="HiraKakuStdN-W8"/>
+                                    <color key="textColor" name="systemOrangeColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Gdj-bn-tTe">
+                                <rect key="frame" x="20" y="890" width="48" height="50"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <buttonCell key="cell" type="bevel" bezelStyle="regularSquare" image="PlayBoton" imagePosition="overlaps" alignment="center" transparent="YES" imageScaling="proportionallyDown" inset="2" id="gqb-dy-Noh">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <color key="contentTintColor" red="1" green="1" blue="1" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <action selector="botonEmpezar_Parar:" target="9ic-ny-uVa" id="rx1-dp-tvX"/>
+                                </connections>
+                            </button>
+                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Vcu-aR-z3j">
+                                <rect key="frame" x="83" y="892" width="48" height="48"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <buttonCell key="cell" type="bevel" title="Añadir" bezelStyle="regularSquare" image="AñadirBoton" imagePosition="overlaps" alignment="center" transparent="YES" imageScaling="proportionallyDown" sound="Pop" inset="2" id="48D-8J-WM6">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="botonAñadir:" target="9ic-ny-uVa" id="6j2-Ud-GUb"/>
+                                </connections>
+                            </button>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gDC-E9-qmQ">
+                                <rect key="frame" x="994" y="764" width="147" height="28"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <textFieldCell key="cell" lineBreakMode="clipping" id="1dc-hi-dX3">
+                                    <font key="font" size="23" name="HiraKakuStd-W8"/>
+                                    <color key="textColor" name="controlAccentColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="onz-GX-pxu">
+                                <rect key="frame" x="154" y="892" width="42" height="48"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <buttonCell key="cell" type="bevel" title="Eliminar" bezelStyle="regularSquare" image="RemoveBoton" imagePosition="overlaps" alignment="center" transparent="YES" imageScaling="proportionallyDown" inset="2" id="7zF-hj-dM2">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="botonEliminar:" target="9ic-ny-uVa" id="Z9u-ck-m9X"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <connections>
+                            <outlet property="controlador" destination="9ic-ny-uVa" id="xXj-q4-BPj"/>
+                        </connections>
+                    </customView>
+                </subviews>
+            </view>
+            <connections>
+                <outlet property="delegate" destination="9ic-ny-uVa" id="bVQ-gs-kP5"/>
+            </connections>
+            <point key="canvasLocation" x="227" y="-327"/>
+        </window>
+        <customObject id="9ic-ny-uVa" userLabel="Controlador" customClass="MainControlador">
+            <connections>
+                <outlet property="botonAñadir" destination="Vcu-aR-z3j" id="8yH-XZ-4ud"/>
+                <outlet property="botonEliminar" destination="onz-GX-pxu" id="MBC-Mj-OKK"/>
+                <outlet property="botonEmpezarParar" destination="Gdj-bn-tTe" id="LHB-2z-QGU"/>
+                <outlet property="contadorBombasPantalla" destination="gDC-E9-qmQ" id="Utr-sk-f7z"/>
+                <outlet property="contadorPantalla" destination="AgP-3a-HfJ" id="pIO-Zr-c8P"/>
+                <outlet property="imagenGameOver" destination="sI3-0A-BqT" id="MsF-To-RDh"/>
+                <outlet property="labelWin" destination="gLG-wf-bah" id="Vnq-Xw-UEO"/>
+                <outlet property="puntuacionPantalla" destination="ZSn-co-6Gf" id="Hax-yB-ofZ"/>
+                <outlet property="vista" destination="Eka-Dy-gNw" id="Ei2-ec-rcF"/>
+            </connections>
+        </customObject>
+    </objects>
+    <resources>
+        <image name="AñadirBoton" width="307.20001220703125" height="319.92001342773438"/>
+        <image name="GameOver" width="286.07998657226562" height="164.8800048828125"/>
+        <image name="PlayBoton" width="384" height="384"/>
+        <image name="RemoveBoton" width="2125" height="2400"/>
+        <sound name="Pop"/>
+    </resources>
+</document>

@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		334B329E237984D30037E16B /* fondo2.png in Resources */ = {isa = PBXBuildFile; fileRef = 334B329D237984D20037E16B /* fondo2.png */; };
+		334B32A0237992490037E16B /* SonidoGame over.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 334B329F237992490037E16B /* SonidoGame over.mp3 */; };
+		334B32A2237993500037E16B /* SonidoBomba.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 334B32A1237993500037E16B /* SonidoBomba.mp3 */; };
+		334B32A42379947D0037E16B /* SonidoFruta.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 334B32A32379947D0037E16B /* SonidoFruta.mp3 */; };
+		334B32A823799AC10037E16B /* SonidoFondo2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 334B32A723799AC10037E16B /* SonidoFondo2.wav */; };
+		3387865C236988A0008F2B42 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3387865B236988A0008F2B42 /* AppDelegate.m */; };
+		3387865E236988A2008F2B42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3387865D236988A2008F2B42 /* Assets.xcassets */; };
+		33878661236988A2008F2B42 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3387865F236988A2008F2B42 /* MainMenu.xib */; };
+		33878664236988A2008F2B42 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 33878663236988A2008F2B42 /* main.m */; };
+		3387866D236988D3008F2B42 /* MainControlador.m in Sources */ = {isa = PBXBuildFile; fileRef = 3387866C236988D3008F2B42 /* MainControlador.m */; };
+		33878671236988F7008F2B42 /* PanelControlador.m in Sources */ = {isa = PBXBuildFile; fileRef = 3387866F236988F7008F2B42 /* PanelControlador.m */; };
+		33878672236988F7008F2B42 /* PanelControlador.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33878670236988F7008F2B42 /* PanelControlador.xib */; };
+		338786752369892E008F2B42 /* Pantalla.m in Sources */ = {isa = PBXBuildFile; fileRef = 338786742369892E008F2B42 /* Pantalla.m */; };
+		3387867823698959008F2B42 /* Objeto.m in Sources */ = {isa = PBXBuildFile; fileRef = 3387867723698959008F2B42 /* Objeto.m */; };
+		33995ACA2378399E00E422F3 /* AñadirBoton.png in Resources */ = {isa = PBXBuildFile; fileRef = 33995AC92378399D00E422F3 /* AñadirBoton.png */; };
+		33995ACC237839A500E422F3 /* RemoveBoton.png in Resources */ = {isa = PBXBuildFile; fileRef = 33995ACB237839A500E422F3 /* RemoveBoton.png */; };
+		33A14F202376FB0900D650A8 /* Bomba.png in Resources */ = {isa = PBXBuildFile; fileRef = 33A14F1F2376FB0900D650A8 /* Bomba.png */; };
+		33A14F222376FB1000D650A8 /* fondo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 33A14F212376FB1000D650A8 /* fondo.jpg */; };
+		33A14F242376FB1700D650A8 /* GameOver.png in Resources */ = {isa = PBXBuildFile; fileRef = 33A14F232376FB1700D650A8 /* GameOver.png */; };
+		33A14F262376FB1C00D650A8 /* Manzana.png in Resources */ = {isa = PBXBuildFile; fileRef = 33A14F252376FB1C00D650A8 /* Manzana.png */; };
+		33A14F282376FB2200D650A8 /* Pera.png in Resources */ = {isa = PBXBuildFile; fileRef = 33A14F272376FB2200D650A8 /* Pera.png */; };
+		33A14F2A2376FB2900D650A8 /* Platano.png in Resources */ = {isa = PBXBuildFile; fileRef = 33A14F292376FB2900D650A8 /* Platano.png */; };
+		33ACA835237807260075F213 /* PauseBoton.png in Resources */ = {isa = PBXBuildFile; fileRef = 33ACA834237807260075F213 /* PauseBoton.png */; };
+		33ACA8372378072E0075F213 /* PlayBoton.png in Resources */ = {isa = PBXBuildFile; fileRef = 33ACA8362378072E0075F213 /* PlayBoton.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		334B329D237984D20037E16B /* fondo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fondo2.png; sourceTree = "<group>"; };
+		334B329F237992490037E16B /* SonidoGame over.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "SonidoGame over.mp3"; sourceTree = "<group>"; };
+		334B32A1237993500037E16B /* SonidoBomba.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SonidoBomba.mp3; sourceTree = "<group>"; };
+		334B32A32379947D0037E16B /* SonidoFruta.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SonidoFruta.mp3; sourceTree = "<group>"; };
+		334B32A723799AC10037E16B /* SonidoFondo2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = SonidoFondo2.wav; sourceTree = "<group>"; };
+		33878657236988A0008F2B42 /* JuegoDani.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JuegoDani.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3387865A236988A0008F2B42 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3387865B236988A0008F2B42 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3387865D236988A2008F2B42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		33878660236988A2008F2B42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		33878662236988A2008F2B42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33878663236988A2008F2B42 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		33878665236988A2008F2B42 /* JuegoDani.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = JuegoDani.entitlements; sourceTree = "<group>"; };
+		3387866B236988D3008F2B42 /* MainControlador.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainControlador.h; sourceTree = "<group>"; };
+		3387866C236988D3008F2B42 /* MainControlador.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainControlador.m; sourceTree = "<group>"; };
+		3387866E236988F7008F2B42 /* PanelControlador.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PanelControlador.h; sourceTree = "<group>"; };
+		3387866F236988F7008F2B42 /* PanelControlador.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PanelControlador.m; sourceTree = "<group>"; };
+		33878670236988F7008F2B42 /* PanelControlador.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PanelControlador.xib; sourceTree = "<group>"; };
+		338786732369892E008F2B42 /* Pantalla.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Pantalla.h; sourceTree = "<group>"; };
+		338786742369892E008F2B42 /* Pantalla.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pantalla.m; sourceTree = "<group>"; };
+		3387867623698959008F2B42 /* Objeto.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Objeto.h; sourceTree = "<group>"; };
+		3387867723698959008F2B42 /* Objeto.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Objeto.m; sourceTree = "<group>"; };
+		33995AC92378399D00E422F3 /* AñadirBoton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AñadirBoton.png"; sourceTree = "<group>"; };
+		33995ACB237839A500E422F3 /* RemoveBoton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RemoveBoton.png; sourceTree = "<group>"; };
+		33A14F1F2376FB0900D650A8 /* Bomba.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bomba.png; sourceTree = "<group>"; };
+		33A14F212376FB1000D650A8 /* fondo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fondo.jpg; sourceTree = "<group>"; };
+		33A14F232376FB1700D650A8 /* GameOver.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GameOver.png; sourceTree = "<group>"; };
+		33A14F252376FB1C00D650A8 /* Manzana.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Manzana.png; sourceTree = "<group>"; };
+		33A14F272376FB2200D650A8 /* Pera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pera.png; sourceTree = "<group>"; };
+		33A14F292376FB2900D650A8 /* Platano.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Platano.png; sourceTree = "<group>"; };
+		33ACA834237807260075F213 /* PauseBoton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PauseBoton.png; sourceTree = "<group>"; };
+		33ACA8362378072E0075F213 /* PlayBoton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PlayBoton.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33878654236988A0008F2B42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3387864E236988A0008F2B42 = {
+			isa = PBXGroup;
+			children = (
+				33878659236988A0008F2B42 /* JuegoDani */,
+				33878658236988A0008F2B42 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		33878658236988A0008F2B42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33878657236988A0008F2B42 /* JuegoDani.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33878659236988A0008F2B42 /* JuegoDani */ = {
+			isa = PBXGroup;
+			children = (
+				33DB291D2372D2850066F5EA /* Archivos de soporte */,
+				3387865A236988A0008F2B42 /* AppDelegate.h */,
+				3387865B236988A0008F2B42 /* AppDelegate.m */,
+				3387865D236988A2008F2B42 /* Assets.xcassets */,
+				3387865F236988A2008F2B42 /* MainMenu.xib */,
+				33878670236988F7008F2B42 /* PanelControlador.xib */,
+				33878662236988A2008F2B42 /* Info.plist */,
+				33878663236988A2008F2B42 /* main.m */,
+				33878665236988A2008F2B42 /* JuegoDani.entitlements */,
+				3387866B236988D3008F2B42 /* MainControlador.h */,
+				3387866C236988D3008F2B42 /* MainControlador.m */,
+				3387866E236988F7008F2B42 /* PanelControlador.h */,
+				3387866F236988F7008F2B42 /* PanelControlador.m */,
+				338786732369892E008F2B42 /* Pantalla.h */,
+				338786742369892E008F2B42 /* Pantalla.m */,
+				3387867623698959008F2B42 /* Objeto.h */,
+				3387867723698959008F2B42 /* Objeto.m */,
+			);
+			path = JuegoDani;
+			sourceTree = "<group>";
+		};
+		33DB291D2372D2850066F5EA /* Archivos de soporte */ = {
+			isa = PBXGroup;
+			children = (
+				334B32A723799AC10037E16B /* SonidoFondo2.wav */,
+				334B32A32379947D0037E16B /* SonidoFruta.mp3 */,
+				334B32A1237993500037E16B /* SonidoBomba.mp3 */,
+				334B329F237992490037E16B /* SonidoGame over.mp3 */,
+				334B329D237984D20037E16B /* fondo2.png */,
+				33995ACB237839A500E422F3 /* RemoveBoton.png */,
+				33995AC92378399D00E422F3 /* AñadirBoton.png */,
+				33ACA8362378072E0075F213 /* PlayBoton.png */,
+				33ACA834237807260075F213 /* PauseBoton.png */,
+				33A14F292376FB2900D650A8 /* Platano.png */,
+				33A14F272376FB2200D650A8 /* Pera.png */,
+				33A14F252376FB1C00D650A8 /* Manzana.png */,
+				33A14F232376FB1700D650A8 /* GameOver.png */,
+				33A14F212376FB1000D650A8 /* fondo.jpg */,
+				33A14F1F2376FB0900D650A8 /* Bomba.png */,
+			);
+			path = "Archivos de soporte";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33878656236988A0008F2B42 /* JuegoDani */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33878668236988A2008F2B42 /* Build configuration list for PBXNativeTarget "JuegoDani" */;
+			buildPhases = (
+				33878653236988A0008F2B42 /* Sources */,
+				33878654236988A0008F2B42 /* Frameworks */,
+				33878655236988A0008F2B42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JuegoDani;
+			productName = JuegoDani;
+			productReference = 33878657236988A0008F2B42 /* JuegoDani.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3387864F236988A0008F2B42 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "daniel hernandez";
+				TargetAttributes = {
+					33878656236988A0008F2B42 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = 33878652236988A0008F2B42 /* Build configuration list for PBXProject "JuegoDani" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3387864E236988A0008F2B42;
+			productRefGroup = 33878658236988A0008F2B42 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33878656236988A0008F2B42 /* JuegoDani */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33878655236988A0008F2B42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				334B32A0237992490037E16B /* SonidoGame over.mp3 in Resources */,
+				3387865E236988A2008F2B42 /* Assets.xcassets in Resources */,
+				33A14F262376FB1C00D650A8 /* Manzana.png in Resources */,
+				33A14F242376FB1700D650A8 /* GameOver.png in Resources */,
+				33995ACA2378399E00E422F3 /* AñadirBoton.png in Resources */,
+				33A14F282376FB2200D650A8 /* Pera.png in Resources */,
+				33995ACC237839A500E422F3 /* RemoveBoton.png in Resources */,
+				33A14F2A2376FB2900D650A8 /* Platano.png in Resources */,
+				334B32A823799AC10037E16B /* SonidoFondo2.wav in Resources */,
+				33A14F202376FB0900D650A8 /* Bomba.png in Resources */,
+				33878672236988F7008F2B42 /* PanelControlador.xib in Resources */,
+				334B32A2237993500037E16B /* SonidoBomba.mp3 in Resources */,
+				33ACA835237807260075F213 /* PauseBoton.png in Resources */,
+				33ACA8372378072E0075F213 /* PlayBoton.png in Resources */,
+				334B329E237984D30037E16B /* fondo2.png in Resources */,
+				334B32A42379947D0037E16B /* SonidoFruta.mp3 in Resources */,
+				33878661236988A2008F2B42 /* MainMenu.xib in Resources */,
+				33A14F222376FB1000D650A8 /* fondo.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33878653236988A0008F2B42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33878671236988F7008F2B42 /* PanelControlador.m in Sources */,
+				33878664236988A2008F2B42 /* main.m in Sources */,
+				3387865C236988A0008F2B42 /* AppDelegate.m in Sources */,
+				3387866D236988D3008F2B42 /* MainControlador.m in Sources */,
+				3387867823698959008F2B42 /* Objeto.m in Sources */,
+				338786752369892E008F2B42 /* Pantalla.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3387865F236988A2008F2B42 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33878660236988A2008F2B42 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		33878666236988A2008F2B42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		33878667236988A2008F2B42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		33878669236988A2008F2B42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = JuegoDani/JuegoDani.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = JuegoDani/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dani.JuegoDani;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3387866A236988A2008F2B42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = JuegoDani/JuegoDani.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = JuegoDani/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dani.JuegoDani;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33878652236988A0008F2B42 /* Build configuration list for PBXProject "JuegoDani" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33878666236988A2008F2B42 /* Debug */,
+				33878667236988A2008F2B42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33878668236988A2008F2B42 /* Build configuration list for PBXNativeTarget "JuegoDani" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33878669236988A2008F2B42 /* Debug */,
+				3387866A236988A2008F2B42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3387864F236988A0008F2B42 /* Project object */;
+}
